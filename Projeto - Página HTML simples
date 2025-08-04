@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto DIO - Criando Uma Página Web</title>
+</head>
+
+<body>
+    <h1  id="inicio" >HTML Semântico, TAGS e Sua Importância </h1>
+    <hr/>
+    <h2> Índice </h2>
+    <ul>
+        <li><a href="#semantica">HTML - Semântica</a></li>
+        <li><a href="#mudanças">Mudanças no HTML 5</a></li>
+        <li><a href="#acessibilidade">Acessibilidade</a></li>
+        <li><a href="#scraping">Web Scraping</a></li>
+        <li><a href="#main">Tags Main, Header e Footer</a></li>
+        <li><a href="#aside">Tags Aside, Section e Nav</a></li>
+        <li><a href="#article">Tags Article, Blockquote e Q</a></li>
+        <li><a href="#figure">Tags Figure, Figcaption e Picture</a></li>
+        <li><a href="#outras"> Outras Tags</a></li>
+        <li><a href="#seo">Importância do SEO</a></li>
+    </ul>          
+   <h2 id="semantica"> HTML - Semântica</h2>
+   <small><a href="#inicio">(voltar)</a></small>
+   <p>Em breve resumo, semântica é o estudo dos significados e sentidos das palavras e expressões linguísticas</p>
+   <p>No caso do HTML, a utilização da semântica passou a servir na estruturação do HTML, bem como para facilitar questões de acessibilidade e SEO</p>  
+   <h2 id="mudanças"> Mudanças no HTML 5 </h2>
+   <small><a href="#inicio">(voltar)</a></small>
+   <p>Com a utilização da semântica no HTML, o mesmo se tornou uma ferramente de estruturação de páginas, deixa a parte de estilização para outras ferramentas</p>
+   <p>Diante de tal fato, foram criadas tags como <i>main, header, nav,</i> enquantos outras caíram em desuso, como<i> basefront, center, frameset </i></p>
+   <h2 id="acessibilidade"> Acessibilidade</h2>
+   <small><a href="#inicio">(voltar)</a></small>  
+   <p>Ao passar dos anos, as questões de acessibilidade, especialmente na tecnologia, se tornaram prioridade para muitos desenvolvedores e empresas, de forma a alcançar mais pessoas, gerando iniciativas nesse sentido</p>
+   <p>As mudanças do HTML 5 também servem para questões de acessibilidade, uma vez que facilitam para robôs e leitures de tela em ler o conteúdo de um site de forma orgânica</p>
+   <p>Por exemplo, temos o <i> Acessible Rich Internet Applications</i>, que são um conjunto de tags que não influenciam no comportamento do HTML, mas sim da árvore de acessibilidade</p>
+   <h2 id="scraping">Web Scraping</h2>
+   <small><a href="#inicio">(voltar)</a></small>
+   <p>Web scraping é uma forma automatizada, em regra através de robôs, de coletar e analisar informações de um ou mais sites.</p>
+   <p>Uma empresa conhecida que utiliza tal recurso é o Google, de forma analisar os sites e indexá-los em seu buscador.</p>
+   <p>É uma prática legal, mas é necessário analisar a legislação do país. Por exemplo, no Brasil, temos a LGPD, que regula a proteção de dados.</p>  
+   <h2 id="main"> Tags Main, Header e Footer</h2>
+   <small><a href="#inicio">(voltar)</a></small>
+   <p>São as tags de estrutura.</p>
+   <p> <i>Main</i> define o conteúdo central da página. Possui algumas particularidades, como não poder ser filha de outras tags, bem como não pode haver duas <i>mains</i> na mesma página</p>
+   <p> A tag <i>Header</i> serve para definir o cabeçalho, enquanto a tag <i>Footer</i> serve para definir o rodapé.</p>  
+   <h2 id="aside"> Tags Aside, Section e Nav</h2>
+   <small><a href="#inicio">(voltar)</a></small>
+   <p>A tag <i>section</i> serve para criar seções de intormações sobre o conteúdo da página.</p>
+   <p>Já a tag <i>aside</i> é utilizada para conteúdo vagamente relacionado, ou sem relação, como anúncios, biografia do autor, links, etc.</p>
+   <p>A tag <i>nav</i> é para criar uma seção de navegação para outras páginas ou conteúdos, com links, por exemplo, um menu principal</p>  
+   <h2 id="article"> Tags Article, Blockquote e Q</h2>
+   <small><a href="#inicio">(voltar)</a></small>
+   <p>O<i>article</i> é a tag destinada para, de fato, colocar o conteúdo principal da página. Permite alinhamento e até mesmo a utilização de outro <i>article</i>, relacionado ao primeiro, como perguntas e respostas</p> 
+   <p>A tag <i>Q</i> serve para fazer citações no próprio texto. Por exemplo <q>este trecho foi criado através da tag q</q>.</p> 
+   <p> Já a tag <i>blockquote</i> serve para citações maiores, que necessitam de espaço próprio, criando inclusive o recuo. Por exemplo:</p>
+        <blockquote> Este trecho do texto foi criado através da tag blockquote. Ele faz o recuo, toda a formatação necessária para uma citação com o texto maior. Demais alterações, como o itálico, devem ser adicionadas com as tags próprias</blockquote>
+   <h2 id="figure"> Tags Figure, Figcaption e Picture</h2>
+   <small><a href="#inicio">(voltar)</a></small>  
+   <p>A tag <i>figure</i>serve para "encapsular" conteúdo indepentende, mas ainda relacionado ao texto, como imagens e suas legendas, que podem ser adicionadas através da tag <i>figcaption</i>.</p>
+   <p>Já a tag <i>picture</i> possui a mesma função que a tag <i>figure</i>, mas permite que mais de uma imagem seja utilizada, adaptando a imagem de acordo com a tamanho da tela do usuário</p>
+   <h2 id="outras"> Outras Tags</h2>
+   <small><a href="#inicio">(voltar)</a></small>
+   <p>Além das já mencionadas, existem milhares de outras tags, para as mais variadas ações.</p>
+   <p>Por exemplo, muito utilizadas em textos que possuem equações matemáticas ou fórmulas químicas, a tag <i>sub</i> diminui o tamanho de um determinado caractere, bem como o posiciona levemente abaixo do texto. Por exemplo: A fórmula química da água é H<sub>2</sub>O. O número 2 está dentro da tag <i>sub</i></p>
+   <p>Já a tag <i>sup</i> faz o oposto, colocando o caractere levemente acima do restante. Por exemplo: Fórmula de área do quadrado: A = L<sup>2</sup></p>
+   <p>Temos ainda a tag <i>mark</i>, que <mark> é usada como um marca texto, destacando um determinado trecho</mark>.</p>
+   <p>A tag <i>small</i> deixa o texto com um tamanho um pouco menor que o da fonte original, muito utilizado em notas de rodapé</p>
+   <p>Existem também tags para formatação do texto, como por exemplo a tag <i>i, que deixa o texto em itálico</i>, a tag <i>u</i>, <u>que deixa o texto sublinhado</u> e também a tag <i>strong</i>, <strong>que deixa o texto em negrito</strong>.</p>
+   <p>Finalmente temos as tags de lista.</p>
+   <p>A tag <i>ul</i>trata de listas não ordenadas, como o indíce dessa página, que está marcado com bolinhas.</p>
+   <p>Por outro lado, a tag <i>ol</i>trata de listas ordenadas, como abaixo:</p>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+   <h2 id="seo"> Importância do SEO</h2>
+   <small><a href="#inicio">(voltar)</a></small>
+   <p>SEO, ou Seach Engine Optimization (otimização para mecanismos de busca) é uma ferramenta muito discutidade na atualidade. É um conjunto de técnicas voltadas para otimizar o posicionamento de um site em mecanismos de busca.</p>
+   <p>Não é utilizado apenas no HTML, mas também no conteúdo em si, através de palavras chave. Portanto, possui relação com o web scraping</p>  
+
+</body>
+</html>
